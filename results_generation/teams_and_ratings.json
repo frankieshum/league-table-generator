@@ -1,82 +1,102 @@
 [
     {
         "team": "Arsenal",
-        "rating": 0.7
+        "attack": 0.6,
+        "defence": 0.7
     },
     {
         "team": "Liverpool",
-        "rating": 1.2
+        "attack": 0.9,
+        "defence": 0.9
     },
     {
         "team": "Leicester City",
-        "rating": 0.6
+        "attack": 0.6,
+        "defence": 0.5
     },
     {
         "team": "Aston Villa",
-        "rating": 0.4
+        "attack": 0.4,
+        "defence": 0.4
     },
     {
         "team": "Newcastle United",
-        "rating": 0.5
+        "attack": 0.4,
+        "defence": 0.4
     },
     {
         "team": "Manchester United",
-        "rating": 0.6
+        "attack": 0.5,
+        "defence": 0.5
     },
     {
         "team": "Brighton and Hove Albion",
-        "rating": 0.3
+        "attack": 0.4,
+        "defence": 0.6
     },
     {
         "team": "Manchester City",
-        "rating": 1.3
+        "attack": 0.9,
+        "defence": 0.9
     },
     {
         "team": "Norwich City",
-        "rating": 0.3
+        "attack": 0.1,
+        "defence": 0.1
     },
     {
         "team": "Brentford",
-        "rating": 0.4
+        "attack": 0.4,
+        "defence": 0.4
     },
     {
         "team": "Leeds United",
-        "rating": 0.3
+        "attack": 0.3,
+        "defence": 0.2
     },
     {
         "team": "Burnley",
-        "rating": 0.3
+        "attack": 0.2,
+        "defence": 0.4
     },
     {
         "team": "Tottenham Hotspur",
-        "rating": 0.8
+        "attack": 0.7,
+        "defence": 0.7
     },
     {
         "team": "Everton",
-        "rating": 0.4
+        "attack": 0.3,
+        "defence": 0.3
     },
     {
         "team": "Chelsea",
-        "rating": 0.9
+        "attack": 0.8,
+        "defence": 0.8
     },
     {
         "team": "West Ham United",
-        "rating": 0.6
+        "attack": 0.6,
+        "defence": 0.6
     },
     {
         "team": "Wolverhampton Wanderers",
-        "rating": 0.5
+        "attack": 0.3,
+        "defence": 0.6
     },
     {
         "team": "Crystal Palace",
-        "rating": 0.4
+        "attack": 0.4,
+        "defence": 0.6
     },
     {
         "team": "Southampton",
-        "rating": 0.3
+        "attack": 0.3,
+        "defence": 0.3
     },
     {
         "team": "Watford",
-        "rating": 0.3
+        "attack": 0.2,
+        "defence": 0.2
     }
 ]

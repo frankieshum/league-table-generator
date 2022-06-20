@@ -1,3 +1,3 @@
-module league-table-generator
+module github.com/frankieshum/league-table-generator
 
 go 1.17

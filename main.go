@@ -10,6 +10,7 @@ import (
 // go routines
 // tests
 // any other refactoring?
+// documentation
 
 func main() {
 	filename := getFilenameFromUser()
