@@ -23,6 +23,8 @@ func (r Result) IsAwayWin() bool {
 }
 
 func getResultsFromFile(filename string) []Result {
+	log.Printf("Retrieving results from file. Filename: %v", filename)
+
 	// Open file and read CSV records
 	file, err := os.Open(results_filename_prefix + filename)
 	if err != nil {
@@ -36,17 +38,19 @@ func getResultsFromFile(filename string) []Result {
 		log.Fatalf("Error while reading results file: %v", err)
 	}
 
+	log.Printf("Converting CSV records to Results. Number of results: %v", len(csvRecords))
+
 	// Convert CSV records to Results
 	var results []Result
-	for _, csvRecord := range csvRecords {
+	for i, csvRecord := range csvRecords {
 		homeGoals, err := strconv.Atoi(csvRecord[1])
 		if err != nil {
-			log.Fatalf("Home goals value couldn't be converted to int. Value: %v", csvRecord[1])
+			log.Fatalf("Home goals value couldn't be converted to int. Value: '%v', record index: %v", csvRecord[1], i)
 		}
 
 		awayGoals, err := strconv.Atoi(csvRecord[2])
 		if err != nil {
-			log.Fatalf("Away goals value couldn't be converted to int. Value: %v", csvRecord[1])
+			log.Fatalf("Away goals value couldn't be converted to int. Value: '%v', record index: %v", csvRecord[1])
 		}
 
 		results = append(results,
